@@ -3075,7 +3075,7 @@
       sha256 = "f1019acaf3268dbe1178538e6a0ab95e89a2c599c5098952b7d339788b13bedd";
       type = "gem";
     };
-    version = "0.48.0;
+    version = "0.48.0";
   };
   sqlite3 = {
     dependencies = ["mini_portile2"];

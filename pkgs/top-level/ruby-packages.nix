@@ -3067,15 +3067,15 @@
     version = "1.3.2";
   };
   solargraph = {
-    dependencies = ["backport" "benchmark" "diff-lcs" "e2mmap" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "parser" "reverse_markdown" "rubocop" "thor" "tilt" "yard"];
+    dependencies = ["backport" "benchmark" "bundler" "diff-lcs" "e2mmap" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "parser" "reverse_markdown" "rubocop" "thor" "tilt" "yard"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0smcpi3x87chkdqdclhgh36xlbwm7r44r58m3k1w4mcikdwlpjl7";
+      sha256 = "f1019acaf3268dbe1178538e6a0ab95e89a2c599c5098952b7d339788b13bedd";
       type = "gem";
     };
-    version = "0.47.2";
+    version = "0.48.0;
   };
   sqlite3 = {
     dependencies = ["mini_portile2"];
